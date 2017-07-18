@@ -54,6 +54,10 @@ a:focus, a:hover, a:active {
 
 /*Custom*/
 
+.custom-align{
+    text-align: center;
+}
+
 .icon-custom{
     display:block;
     color: #000;
