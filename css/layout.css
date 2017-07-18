@@ -54,6 +54,25 @@ a:focus, a:hover, a:active {
 
 /*Custom*/
 
+.icon-custom{
+    display:block;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.circle {
+    text-align: center;
+    margin: auto;
+    background: #17bed2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    margin-bottom: 50px;
+}
+
 .top-img{
     background: url('../img/adelaide.png') no-repeat;
     /*background-size: cover;*/
