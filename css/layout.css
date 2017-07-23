@@ -54,6 +54,83 @@ a:focus, a:hover, a:active {
 
 /*Custom*/
 
+@media (min-width: 1320px) {
+    .top-form-control h2:first-child{
+        margin-top: 50px;
+        font-size: 60px;
+    }
+
+    .top-form-control h4:first-of-type{
+        color: #515769;
+        font-size: 40px;
+    }
+
+    .top-img{
+        background: url('../img/adelaide.png') no-repeat;
+        min-height: 1080px;
+        font-size: 50px;
+        position: relative;
+    }
+
+    #top-hider{
+        display: block;
+    }
+
+    #btm-hider{
+        display: none;
+    }
+}
+
+@media (max-width: 1319px) {
+    .top-form-control{
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+
+    .top-form-control h4:first-of-type{
+        color: #515769;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1319px) and (min-width: 800px) {
+    .top-img{
+        background: url('../img/adelaide.png') no-repeat;
+        min-height: 800px;
+        font-size: 50px;
+        position: relative;
+        background-position: center;
+    }
+
+    #top-hider{
+        display: none;
+    }
+
+    #btm-hider{
+        display: block;
+    }
+}
+
+@media (max-width: 799px) {
+    .top-img{
+        background: url('../img/adelaide-mini.png') no-repeat;
+        min-height: 500px;
+        font-size: 50px;
+        position: relative;
+        background-position: center;
+    }
+
+    #top-hider{
+        display: none;
+    }
+
+    #btm-hider{
+        display: block;
+    }
+}
+
 #sendmessagebtm, #errormessagebtm, #sendmessagetop, #errormessagetop{
     display: none;
     color: #FFF;
@@ -98,14 +175,6 @@ a:focus, a:hover, a:active {
     height: 100px;
     border-radius: 50% !important;
     margin-bottom: 50px;
-}
-
-.top-img{
-    background: url('../img/adelaide.png') no-repeat;
-    /*background-size: cover;*/
-    min-height: 1080px;
-    font-size: 50px;
-    position: relative;
 }
 
 * {

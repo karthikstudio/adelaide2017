@@ -77,12 +77,14 @@
 
             <div class="top-img">
                 <div class="overlay-color"></div>
-                <div class="container container-form" style="float: right; margin-right:100px; margin-top: 100px;">
-                    <h2 style="margin-top: 50px; font-size: 60px">Adelaide Ribaud</h2>
-                    <h4 style="color: #515769; font-size: 40px">Property Matchmaker</h4>
+
+                <div class="container container-form top-form-control" style="float: right; margin-right:100px; margin-top: 100px;">
+                    <div id="top-hider">
+                    <h2 style="">Adelaide Ribaud</h2>
+                    <h4>Property Matchmaker</h4>
                           <form class="form-custom" id="contact" action="mail/contact_me.php" method="post">
                             <h3>Contact Me</h3>
-                            <h4>Need to sell or buy a property? Look no further, I’ve got you covered.</h4>
+                            <h4 style="color: #FFF !important">Need to sell or buy a property? Look no further, I’ve got you covered.</h4>
                             <fieldset>
                               <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
                             </fieldset>
@@ -101,12 +103,40 @@
                             <div id="sendmessagetop">Message Sent!</div>
                             <div id="errormessagetop">Oops! Error. Please try again.</div>
                           </form>
+                      </div>
                   </div>
                 </div>
             </div>
 
             <br>
         <!--========== SLIDER ==========-->
+        <div id="btm-hider">
+        <div class="container container-form top-form-control" style="float: right; margin-right:100px; margin-top: 100px;">
+            <h2 style="">Adelaide Ribaud</h2>
+            <h4>Property Matchmaker</h4>
+                  <form class="form-custom" id="contact" action="mail/contact_me.php" method="post">
+                    <h3>Contact Me</h3>
+                    <h4 style="color: #FFF !important">Need to sell or buy a property? Look no further, I’ve got you covered.</h4>
+                    <fieldset>
+                      <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                      <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                      <input name="phone" placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+                    </fieldset>
+                    <fieldset>
+                      <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                    <div id="sendmessagetop">Message Sent!</div>
+                    <div id="errormessagetop">Oops! Error. Please try again.</div>
+                  </form>
+          </div>
+          </div>
 
         <!--========== PAGE LAYOUT ==========-->
         <!-- About -->
