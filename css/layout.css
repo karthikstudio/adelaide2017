@@ -54,6 +54,29 @@ a:focus, a:hover, a:active {
 
 /*Custom*/
 
+#sendmessagebtm, #errormessagebtm, #sendmessagetop, #errormessagetop{
+    display: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+#errormessagebtm, #errormessagetop{
+    background-color: red;
+}
+
+#sendmessagebtm, #sendmessagetop{
+    background-color: green;
+}
+
+#sendmessagebtm, #errormessagebtm{
+    margin-top: 10px;
+}
+
+.cusom-social-top{
+    padding-right: 0px !important;
+}
+
 .custom-align{
     text-align: center;
 }
