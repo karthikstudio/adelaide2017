@@ -53,8 +53,28 @@ a:focus, a:hover, a:active {
 }
 
 /*Custom*/
+@media (max-width: 930px) {
+    .chevron-custom{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 799px) {
+    .ourmap{
+        min-height:490px;
+        background: url('../img/b.png') no-repeat;
+    }
+}
+
+@media (min-width: 800px) {
+    .ourmap{
+        min-height:779px;
+        background: url('../img/a.png') no-repeat;
+    }
+}
 
 @media (min-width: 1320px) {
+
     .top-form-control h2:first-child{
         margin-top: 50px;
         font-size: 60px;
@@ -96,6 +116,7 @@ a:focus, a:hover, a:active {
 }
 
 @media screen and (max-width: 1319px) and (min-width: 800px) {
+
     .top-img{
         background: url('../img/adelaide.png') no-repeat;
         min-height: 800px;
