@@ -165,18 +165,18 @@ a:focus, a:hover, a:active {
     }
 }
 
-#sendmessagebtm, #errormessagebtm, #sendmessagetop, #errormessagetop{
+#sendmessagebtm, #errormessagebtm, #sendmessagetop, #errormessagetop, #sendmessagetop1, #errormessagetop1{
     display: none;
     color: #FFF;
     text-align: center;
     font-size: 16px;
 }
 
-#errormessagebtm, #errormessagetop{
+#errormessagebtm, #errormessagetop, #errormessagetop1{
     background-color: red;
 }
 
-#sendmessagebtm, #sendmessagetop{
+#sendmessagebtm, #sendmessagetop, #sendmessagetop1{
     background-color: green;
 }
 
